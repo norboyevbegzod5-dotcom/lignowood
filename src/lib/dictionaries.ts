@@ -132,7 +132,8 @@ export const dictionaries = {
       submitBtn: "Отправить",
       submittingBtn: "Отправка...",
       successMsg: "Спасибо! Мы скоро свяжемся с вами.",
-    }
+    },
+    mobileCta: "Узнать наличие в Telegram"
   },
   en: {
     meta: {
@@ -265,7 +266,8 @@ export const dictionaries = {
       submitBtn: "Send",
       submittingBtn: "Sending...",
       successMsg: "Thank you! We will contact you soon.",
-    }
+    },
+    mobileCta: "Check availability in Telegram"
   },
   uz: {
     meta: {
@@ -398,7 +400,8 @@ export const dictionaries = {
       submitBtn: "Yuborish",
       submittingBtn: "Yuborilmoqda...",
       successMsg: "Rahmat! Tez orada siz bilan bog'lanamiz.",
-    }
+    },
+    mobileCta: "Telegramda mavjudligini bilish"
   }
 } as const;
 
