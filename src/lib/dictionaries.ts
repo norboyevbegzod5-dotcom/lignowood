@@ -402,4 +402,4 @@ export const dictionaries = {
   }
 } as const;
 
-export type Dictionary = typeof dictionaries.ru;
+export type Dictionary = typeof dictionaries[Locale];
