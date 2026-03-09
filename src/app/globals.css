@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  
+  --color-wood-50: #f7f3f0;
+  --color-wood-100: #efe7e0;
+  --color-wood-200: #dfcec1;
+  --color-wood-300: #cab09d;
+  --color-wood-400: #b18c73;
+  --color-wood-500: #9e7155;
+  --color-wood-600: #855b44;
+  --color-wood-700: #6f4937;
+  --color-wood-800: #5c3e31;
+  --color-wood-900: #4a332a;
+  --color-wood-950: #291a14;
+}
+
+:root {
+  --background: #14110f; /* Темный фон с теплым оттенком */
+  --foreground: #f7f3f0; /* Светлый текст */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Скрываем скроллбар для эстетики (по желанию) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-wood-950);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-wood-700);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-wood-600);
+}
